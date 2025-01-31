@@ -1,0 +1,26 @@
+/* ------------------------------- */
+/*       QGroupBox Styles          */
+/* ------------------------------- */
+#movable_frame {
+    background-color: transparent;
+    border: 2px solid #542848;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Arial";
+    font-size: 30px;
+    color: white;
+}
+
+#movable_frame > QWidget#titleBar > QLabel#titleBarTitle {
+    font-size: 16px;
+    color: white;
+    margin-left: 5px;
+    background: none;
+}
+
+#label1 {
+    background-color: black;
+    font-size: 28px;
+    color: white;
+}
